@@ -1,0 +1,645 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins/Poppins-BoldItalic.woff2") format("woff2"), url("../assets/fonts/Poppins/Poppins-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins/Poppins-SemiBold.woff2") format("woff2"), url("../assets/fonts/Poppins/Poppins-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins/Poppins-Italic.woff2") format("woff2"), url("../assets/fonts/Poppins/Poppins-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins/Poppins-ExtraLightItalic.woff2") format("woff2"), url("../assets/fonts/Poppins/Poppins-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins/Poppins-ExtraBoldItalic.woff2") format("woff2"), url("../assets/fonts/Poppins/Poppins-ExtraBoldItalic.woff") format("woff");
+  font-weight: 800;
+  font-style: italic;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins/Poppins-ExtraLight.woff2") format("woff2"), url("../assets/fonts/Poppins/Poppins-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins/Poppins-ExtraBold.woff2") format("woff2"), url("../assets/fonts/Poppins/Poppins-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins/Poppins-MediumItalic.woff2") format("woff2"), url("../assets/fonts/Poppins/Poppins-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins/Poppins-BlackItalic.woff2") format("woff2"), url("../assets/fonts/Poppins/Poppins-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins/Poppins-Bold.woff2") format("woff2"), url("../assets/fonts/Poppins/Poppins-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins/Poppins-Medium.woff2") format("woff2"), url("../assets/fonts/Poppins/Poppins-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins/Poppins-Regular.woff2") format("woff2"), url("../assets/fonts/Poppins/Poppins-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins/Poppins-SemiBoldItalic.woff2") format("woff2"), url("../assets/fonts/Poppins/Poppins-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins/Poppins-Light.woff2") format("woff2"), url("../assets/fonts/Poppins/Poppins-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins/Poppins-LightItalic.woff2") format("woff2"), url("../assets/fonts/Poppins/Poppins-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins/Poppins-Black.woff2") format("woff2"), url("../assets/fonts/Poppins/Poppins-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins/Poppins-Thin.woff2") format("woff2"), url("../assets/fonts/Poppins/Poppins-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins/Poppins-ThinItalic.woff2") format("woff2"), url("../assets/fonts/Poppins/Poppins-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: fallback;
+}
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+::-webkit-scrollbar-thumb:active {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (min-width: 2560px) {
+  html {
+    font-size: 21.3333333333px;
+  }
+}
+@media screen and (min-width: 3840px) {
+  html {
+    font-size: 32px;
+  }
+}
+
+body {
+  font-family: "Inter", "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5,
+.display-6 {
+  font-weight: 300;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+
+.display-1 {
+  font-weight: 600;
+  line-height: 24px;
+  font-size: 24px;
+}
+
+.display-2 {
+  font-weight: 600;
+  line-height: 24px;
+  font-size: 24px;
+}
+
+.display-3 {
+  font-size: calc(1.525rem + 3.3vw);
+}
+
+.display-4 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 147.023%;
+}
+
+.display-5 {
+  font-size: calc(1.425rem + 2.1vw);
+}
+
+.display-6 {
+  font-size: calc(1.375rem + 1.5vw);
+}
+
+@media (min-width: 1200px) {
+  .display-3 {
+    font-size: 4rem;
+  }
+  .display-5 {
+    font-size: 3rem;
+  }
+  .display-6 {
+    font-size: 2.5rem;
+  }
+}
+li {
+  list-style: none;
+  position: relative;
+  padding-left: 15px;
+  margin-bottom: 10px;
+}
+li:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  width: 5px;
+  height: 5px;
+  background-color: rgba(34, 39, 55,1);
+}
+
+a {
+  text-decoration: none;
+  color: rgba(34, 39, 55,1);
+}
+
+img {
+  max-width: 100%;
+}
+
+.container,
+.container-fluid {
+  width: 100%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (min-width: 576px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    padding-right: 80px;
+    padding-left: 80px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .container-fluid {
+    max-width: calc(1500px + 1.5rem);
+  }
+}
+
+.border {
+  border: 1px solid rgba(34, 39, 55,1);
+}
+.border-primary {
+  border-color: rgba(1, 108, 122,1);
+}
+
+.text-primary {
+  color: rgba(1, 108, 122,1) !important;
+}
+.text-secondary {
+  color: rgba(120, 126, 143,1) !important;
+}
+.text-warning {
+  color: rgba(237, 108, 2,1) !important;
+}
+.text-success {
+  color: rgba(206, 250, 183,1) !important;
+}
+.text-danger {
+  color: rgba(211, 47, 47,1) !important;
+}
+.text-dark {
+  color: rgba(34, 39, 55,1) !important;
+}
+.text-light {
+  color: rgba(248, 249, 250,1) !important;
+}
+
+.bg-dark {
+  background-color: rgba(34, 39, 55,1);
+}
+.bg-light {
+  background-color: rgba(248, 249, 250,1);
+}
+.bg-primary {
+  background-color: rgba(1, 108, 122,1);
+}
+.bg-secondary {
+  background: rgba(120, 126, 143,1);
+}
+
+.rounded-circle {
+  padding: 0;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  min-width: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rounded-pill {
+  border-radius: 50rem !important;
+}
+
+.d-none {
+  display: none !important;
+}
+.d-block {
+  display: block !important;
+  width: 100%;
+}
+.d-flex {
+  display: flex !important;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.35em 0.65em;
+  font-size: 0.75em;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+
+section {
+  padding: 30px 0;
+}
+
+.responsive-image {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 100%;
+}
+.responsive-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.text-1 {
+  color: rgba(120, 126, 143,1);
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(106, 106, 106,1);
+  line-height: 24px;
+}
+.text-2 {
+  color: #222737;
+  font-family: Cairo;
+  font-size: 16px;
+  line-height: 170%;
+  font-weight: 400;
+}
+.text-description {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.home-page .product-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.home-page .product-description {
+  text-align: center;
+  max-width: 390px;
+  margin: 0 auto 60px;
+}
+.home-page .product-banner {
+  background-color: #cefab7;
+  padding: 20px 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+.home-page .product .banner-title {
+  margin-bottom: 30px;
+}
+.home-page .about-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.home-page .temporary hr {
+  border-color: #bcdbf5;
+}
+.home-page .temporary li p {
+  font-size: 14px;
+  color: rgba(120, 126, 143,1);
+  line-height: 1.5;
+}
+.home-page .temporary article {
+  background-color: #f8f8f8;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.home-page .temporary article > .wrapper {
+  display: grid;
+  grid-gap: 30px;
+  align-items: center;
+}
+@media screen and (min-width: 576px) {
+  .home-page .temporary article > .wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.home-page .temporary article .responsive-image {
+  padding-top: 56.25%;
+}
+.home-page .temporary .brand {
+  margin-bottom: 20px;
+}
+.home-page .temporary .brand img {
+  display: block;
+  width: 100%;
+  max-width: 100px;
+}
+
+.product-card-group {
+  display: grid;
+  grid-gap: 40px 0;
+  grid-template-columns: 1fr 1fr;
+}
+@media screen and (min-width: 576px) {
+  .product-card-group {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.product-card {
+  padding: 0 15px;
+}
+@media screen and (min-width: 576px) {
+  .product-card:not(:last-of-type) {
+    border-right: 1px solid rgb(118, 118, 118);
+  }
+}
+.product-card .card-icon {
+  margin-bottom: 5px;
+}
+.product-card .card-icon svg {
+  height: 50px;
+}
+.product-card .card-title {
+  max-width: 100px;
+  margin: 0 auto;
+}
+
+.about-card-group {
+  display: grid;
+  justify-content: center;
+  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(65px, 1fr));
+}
+.about-card {
+  text-align: center;
+}
+.about-card .card-image img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid rgba(1, 108, 122,1);
+}
+.about-card .card-title {
+  font-weight: 600;
+}
+.about-card .card-icon {
+  margin-bottom: 5px;
+}
+.about-card .card-icon img {
+  width: 50px;
+  margin: 0 auto;
+  display: block;
+}
+.about-card .card-text {
+  font-size: 12px;
+  font-weight: 300;
+  color: #00414b;
+  line-height: normal;
+}
+
+.hero-inner {
+  padding: 20px 50px;
+  background-color: rgba(0, 65, 75,1);
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+.hero-inner > .wrapper {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.hero .logo {
+  max-width: 110px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.hero .responsive-image {
+  padding-top: 56.25%;
+  margin-bottom: 20px;
+}
+.hero .responsive-image img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.hero-background {
+  max-width: 285px;
+  margin: 0 auto;
+}
+.hero-title {
+  color: #fff;
+}
+.hero-description {
+  margin-bottom: 15px;
+}
+.footer {
+  padding-bottom: 60px;
+}
+.footer-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.footer-description {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  color: #595959;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.footer-logo {
+  max-width: 187px;
+  margin: 0 auto;
+  display: block;
+}
+.footer .container > .wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.navbar {
+  padding: 50px;
+}
+.navbar-brand {
+  color: rgba(1, 108, 122,1);
+  display: inline;
+}
+.navbar a {
+  margin: 10px;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.link-primary, .link-secondary, .link-success, .link-warning, .link-danger, .link-dark, .link-light {
+  text-decoration-line: underline;
+}
+.link-primary:hover, .link-secondary:hover, .link-success:hover, .link-warning:hover, .link-danger:hover, .link-dark:hover, .link-light:hover {
+  text-decoration-color: inherit;
+}
+.link-primary[underline=hover], .link-secondary[underline=hover], .link-success[underline=hover], .link-warning[underline=hover], .link-danger[underline=hover], .link-dark[underline=hover], .link-light[underline=hover] {
+  text-decoration-line: none;
+}
+.link-primary[underline=hover]:hover, .link-secondary[underline=hover]:hover, .link-success[underline=hover]:hover, .link-warning[underline=hover]:hover, .link-danger[underline=hover]:hover, .link-dark[underline=hover]:hover, .link-light[underline=hover]:hover {
+  text-decoration-line: underline;
+}
+.link-primary[underline=always], .link-secondary[underline=always], .link-success[underline=always], .link-warning[underline=always], .link-danger[underline=always], .link-dark[underline=always], .link-light[underline=always] {
+  text-decoration-color: inherit;
+  text-decoration-color: currentColor;
+}
+.link-primary[underline=none], .link-secondary[underline=none], .link-success[underline=none], .link-warning[underline=none], .link-danger[underline=none], .link-dark[underline=none], .link-light[underline=none] {
+  text-decoration-line: none;
+}
+.link-primary {
+  color: rgba(1, 108, 122,1);
+  text-decoration-color: rgba(1, 108, 122,0.4);
+}
+.link-secondary {
+  color: rgba(120, 126, 143,1);
+  text-decoration-color: rgba(120, 126, 143,0.4);
+}
+.link-success {
+  color: rgba(206, 250, 183,1);
+  text-decoration-color: rgba(206, 250, 183,0.4);
+}
+.link-warning {
+  color: rgba(237, 108, 2,1);
+  text-decoration-color: rgba(237, 108, 2,0.4);
+}
+.link-danger {
+  color: rgba(211, 47, 47,1);
+  text-decoration-color: rgba(211, 47, 47,0.4);
+}
+.link-dark {
+  color: rgba(34, 39, 55,1);
+  text-decoration-color: rgba(34, 39, 55,0.4);
+}
+.link-light {
+  color: rgba(248, 249, 250,1);
+  text-decoration-color: rgba(248, 249, 250,0.4);
+}/*# sourceMappingURL=index.css.map */

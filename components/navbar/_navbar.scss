@@ -1,0 +1,13 @@
+.navbar {
+    padding: 50px;
+    &-brand {
+        color: color(primary);
+        display: inline;
+    }
+    a {
+        margin: 10px;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

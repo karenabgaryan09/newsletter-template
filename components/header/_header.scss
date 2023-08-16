@@ -1,0 +1,44 @@
+
+.hero {
+    &-inner {
+        // max-width: 560px;
+        // margin: 0 auto;
+        padding: 20px 50px;
+        background-color: color(primary-dark);
+        border-radius: 15px;
+        margin-bottom: 30px;
+        & > .wrapper {
+            display: flex;
+            gap: 10px;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    }
+    .logo {
+        max-width: 110px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .responsive-image {
+        padding-top: 56.25%;
+        margin-bottom: 20px;
+        img {
+            object-fit: contain;
+        }
+    }
+    &-background {
+        max-width: 285px;
+        margin: 0 auto;
+    }
+    &-title {
+        color: #fff;
+    }
+    &-description {
+        margin-bottom: 15px;
+    }
+    .container {
+     
+    }
+}

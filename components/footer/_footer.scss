@@ -1,0 +1,30 @@
+.footer {
+    padding-bottom: 60px;
+    &-title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    &-description {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        color: #595959;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    &-logo {
+        max-width: 187px;
+        margin: 0 auto;
+        display: block;
+    }
+    .container {
+        & > .wrapper {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+    }
+}
